@@ -5,6 +5,7 @@
 	<!ENTITY name      "unionfs">
 	<!ENTITY author    "starbix">
 	<!ENTITY version   "0.26">
+	<!ENTITY author    "slink42">
 	<!ENTITY repo      "https://raw.githubusercontent.com/&author;/unRAID-plugins/master">
 	<!ENTITY pluginURL "https://raw.githubusercontent.com/&author;/unRAID-plugins/master/plugins/&name;.plg">
 	<!ENTITY plugin    "/boot/config/plugins/&name;">
@@ -34,7 +35,7 @@ This project builds a stackable unification file system, which can appear to mer
 
 <FILE Name="&emhttp;/&name;.png">
 <URL>&repo;/images/&name;.png</URL>
-<MD5>bcb42a59f9902e07fd8344f370009d83</MD5>
+<MD5>39bd9cfd34c3e94a7989d8355540429c</MD5>
 </FILE>
 
 <FILE Name="&plugin;/packages/unionfs-fuse-&version;-x86_64-1dj.txz" Run="/sbin/upgradepkg --install-new">
