@@ -3,11 +3,12 @@
 <!-- PLUGIN DEFINITIONS -->
 <!DOCTYPE PLUGIN [
 	<!ENTITY name      "mergerfs">
-	<!ENTITY author    "slink42">
+	<!ENTITY author    "Artificially-Intelligent">
 	<!ENTITY version   "2.35.1">
 	<!ENTITY repo      "https://github.com/trapexit/mergerfs/releases/download">
-	<!ENTITY pluginRepo      "https://github.com/&author;/unRAID-plugins/master">
-	<!ENTITY pluginURL "https://raw.githubusercontent.com/&author;/unRAID-plugins/master/plugins/&name;.plg"><!ENTITY pluginURL "https://raw.githubusercontent.com/&author;/unRAID-plugins/master/plugins/&name;.plg">
+	<!ENTITY pluginRepo      "https://raw.githubusercontent.com/&author;/unRAID-plugins/master">
+	<!ENTITY pluginURL      "&pluginRepo;/plugins/&name;.plg">
+	<!ENTITY pluginIcon      "&pluginRepo;/images/&name;.png">
 	<!ENTITY plugin    "/boot/config/plugins/&name;">
 	<!ENTITY emhttp    "/usr/local/emhttp/plugins/&name;">
 ]>
@@ -34,7 +35,7 @@
 	</FILE>
 
 	<FILE Name="&emhttp;/&name;.png">
-		<URL>&pluginRepo;/images/&name;.png</URL>
+		<URL>&pluginIcon;</URL>
 		<MD5>7772abccd1ceceba8d00940aafb3bcac</MD5>
 	</FILE>
 
